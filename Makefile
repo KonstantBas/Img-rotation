@@ -12,7 +12,7 @@ rotation.o: rotation.c
 main.o: main.c
 	$(CC) -c $(CFLAGS) $< -o $@
 
-print_header: main.o rotation.o util.o bmp.o
+print_header: main.o rotation.o bmp.o
 	$(CC) -o print_header $^
 
 clean:

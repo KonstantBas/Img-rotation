@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f372ad9-5bea-42b8-8ee9-36b4be8ac5aa" name="Default Changelist" comment="Fix bmp">
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640455208747</updated>
       <workItem from="1640455209862" duration="2000" />
-      <workItem from="1640455225449" duration="5727000" />
+      <workItem from="1640455225449" duration="6261000" />
     </task>
     <task id="LOCAL-00001" summary="Fix Makefile">
       <created>1640459324278</created>
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640467806866</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix bmp">
+      <created>1640467925836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640467925836</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
