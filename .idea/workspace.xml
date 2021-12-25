@@ -12,8 +12,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f372ad9-5bea-42b8-8ee9-36b4be8ac5aa" name="Default Changelist" comment="Fix Makefile">
-      <change beforePath="$PROJECT_DIR$/bmp.h" beforeDir="false" afterPath="$PROJECT_DIR$/bmp.h" afterDir="false" />
+    <list default="true" id="3f372ad9-5bea-42b8-8ee9-36b4be8ac5aa" name="Default Changelist" comment="Fix bmp">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640455208747</updated>
       <workItem from="1640455209862" duration="2000" />
-      <workItem from="1640455225449" duration="2831000" />
+      <workItem from="1640455225449" duration="5549000" />
     </task>
     <task id="LOCAL-00001" summary="Fix Makefile">
       <created>1640459324278</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640459324278</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix bmp">
+      <created>1640459468806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640459468806</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix Makefile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Makefile" />
+    <MESSAGE value="Fix bmp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bmp" />
   </component>
 </project>
