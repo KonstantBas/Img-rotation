@@ -6,9 +6,6 @@ all: print_header
 bmp.o: bmp.c
 	$(CC) -c $(CFLAGS) $< -o $@
 
-util.o: util.c
-	$(CC) -c $(CFLAGS) $< -o $@
-
 rotation.o: rotation.c
 	$(CC) -c $(CFLAGS) $< -o $@
 
