@@ -32,4 +32,7 @@ struct image {
 };
 
 
+bool from_bmp(FILE* in, struct image* pic);
+bool to_bmp(FILE* out, struct image const* pic);
+
 #endif

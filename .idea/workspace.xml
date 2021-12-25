@@ -12,7 +12,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f372ad9-5bea-42b8-8ee9-36b4be8ac5aa" name="Default Changelist" comment="" />
+    <list default="true" id="3f372ad9-5bea-42b8-8ee9-36b4be8ac5aa" name="Default Changelist" comment="Fix Makefile">
+      <change beforePath="$PROJECT_DIR$/bmp.h" beforeDir="false" afterPath="$PROJECT_DIR$/bmp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +28,9 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MakefileLocalSettings">
     <option name="availableProjects">
@@ -54,6 +60,7 @@
     </option>
   </component>
   <component name="ProjectId" id="22muhqnOtOfJHYKJWjd7oEpuy4d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,6 +69,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
@@ -87,11 +95,34 @@
       <option name="presentableId" value="Default" />
       <updated>1640455208747</updated>
       <workItem from="1640455209862" duration="2000" />
-      <workItem from="1640455225449" duration="2646000" />
+      <workItem from="1640455225449" duration="2831000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix Makefile">
+      <created>1640459324278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640459324278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix Makefile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Makefile" />
   </component>
 </project>

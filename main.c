@@ -11,11 +11,11 @@ int main( int argc, char** argv )
     FILE *f = fopen(argv[1], "rb");
     if (!f) fprintf(stderr,"Failed to open file\n");
     struct image img = {0};
-    from_bmp(f, &img);
+    bool comlete = from_bmp(f, &img);
     struct image rotated_img = rotate(img);
     fclose(f);
     f = fopen("rotated_picture", "wb");
-    to_bmp(f, &rotated_img);
+    bool comlete = to_bmp(f, &rotated_img);
 
     fclose(f);
     return 0;
