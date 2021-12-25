@@ -16,7 +16,7 @@ int main( int argc, char** argv )
     struct image rotated_img = rotate(img);
     fclose(f);
     f = fopen("rotated_picture", "wb");
-    bool comlete = to_bmp(f, &rotated_img);
+    comlete = to_bmp(f, &rotated_img);
     if (comlete!=1) fprintf(stderr,"Error\n");
 
     fclose(f);
