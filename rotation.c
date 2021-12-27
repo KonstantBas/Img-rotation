@@ -10,11 +10,12 @@ struct image rotate(struct image img){
     new_img.height = width;
     new_img.width = height;
 
-    new_img.data = (struct pixel*)malloc(sizeof(struct pixel) * height * width);
+    size_t size = sizeof(struct pixel) * height * width;
+    new_img.data = (struct pixel*)malloc(size);
 
     for (size_t i = 0; i < height; i++){
         for (size_t j = 0; j < width; j++){
-            new_img.data[j * height + i] = img.data[(i + 1) * width - j ]; // new_img.data[j * height + i] = img.data[(i + 1) * width - j - 1];
+            new_img.data[j * height + i] = img.data[(i + 1) * width - j ];
         }
     }
     return new_img;

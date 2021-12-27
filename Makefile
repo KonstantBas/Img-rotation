@@ -1,4 +1,3 @@
-CFLAGS=--std=c18 -Wall -pedantic -Isrc/ -ggdb -Wextra -Werror -DDEBUG
 CC=gcc
 
 all: print_header
