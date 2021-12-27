@@ -27,7 +27,7 @@ bool from_bmp(FILE* in, struct image* img) {
     img->height = header.biHeight;
     img->width = header.biWidth;
 
-    size_t size = img->width * img->height * pSize
+    size_t size = img->width * img->height * pSize;
     img->data = malloc(size);
 
     const uint32_t padding = getPadding(img->width);
